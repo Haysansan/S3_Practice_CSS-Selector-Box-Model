@@ -1,0 +1,35 @@
+/* TODO */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 25px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button.pink {
+  background-color: #ff99cc;
+  border-color: #ff66b2;
+}
+
+.button.pink:hover {
+  background-color: #a64d79;
+  border-color: #804060;
+}
